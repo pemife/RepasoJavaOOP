@@ -11,6 +11,7 @@ public class Main {
 		Murcielago murcielago = new Murcielago();
 		Pez pez = new Pez();
 		
+		// Función propia de todos los Animales
 		persona.setName("Ron Weasly");
 		arania.setName("Aragog");
 		pinguino.setName("Pingu");
@@ -27,8 +28,7 @@ public class Main {
 		pinguino.incubar();
 		//murcielago.incubar();	// Error
 		pez.incubar();
-		
-		
+
 		// Función propia de los Voladores
 		//persona.volar();			// Error
 		//arania.volar();			// Error
